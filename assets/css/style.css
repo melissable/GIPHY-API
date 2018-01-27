@@ -1,0 +1,55 @@
+body {
+    background: url('../images/redcurtain.png');
+}
+
+img {
+    max-height: 150px;
+}
+
+form,
+.movieBtn {
+    background-color: #444444;
+    color: white;
+}
+
+form {
+    padding: 10px;
+    color: black;
+}
+
+#newSMovieInput {
+    color: black;
+}
+
+.ratingStyle {
+    color: white;
+    background-color: gray;
+}
+
+#addMovie {
+    background-color: white;
+    color: #474747;
+    border: none;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+#movieButtons {
+    margin: 10px;
+}
+
+.movieBtn {
+    padding: 6px;
+    margin: 3px;
+}
+
+#giphyLogo {
+    margin: 20px;
+}

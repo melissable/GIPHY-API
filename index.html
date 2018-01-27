@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Favorite Movie Gifs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <form id='movieForm'>
+                            <label for='newMovieInput'><h1>Add a movie here or choose one below:</h1></label>
+                            <input type='text' id='newMovieInput'>
+                            <input id='addMovie' type='submit' value='Submit'>
+                        </form>
+
+        </div>
+    </nav>
+
+    <div class='container'>
+        <div class='row'>
+            <div id='movieButtons'></div>
+        </div>
+
+        <div class='col-lg-3'>
+                <div class='display'></div>
+        </div>
+    </div>
+
+   <footer class="text-center">Gifs provided by:<img src='assets/images/giphy.gif' id='giphyLogo'>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
